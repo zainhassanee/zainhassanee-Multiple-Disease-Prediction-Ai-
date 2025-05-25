@@ -1,4 +1,8 @@
 streamlit
-scikit-learn
 pandas
+scikit-learn
 joblib
+matplotlib
+seaborn
+wordcloud
+streamlit-lottie
