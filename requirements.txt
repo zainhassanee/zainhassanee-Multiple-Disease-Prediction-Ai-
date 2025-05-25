@@ -5,4 +5,3 @@ joblib
 matplotlib
 seaborn
 wordcloud
-streamlit-lottie
