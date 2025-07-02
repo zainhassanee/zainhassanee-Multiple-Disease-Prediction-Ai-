@@ -149,11 +149,10 @@ st.markdown("""<hr style="margin-top: 3em; margin-bottom: 1em;"/>""", unsafe_all
 st.markdown("""
 <div style='text-align: center; color: #aaa; font-size: 14px;'>
 
-Made with ❤️ by <b>Sarah Lamond</b><br>
+Made with ❤️ by <b>Zain Hassan Gondal</b><br>
 
-<a href='https://www.linkedin.com/in/sarahlamond/' target='_blank'>LinkedIn</a> &nbsp;|&nbsp;
-<a href='https://www.kaggle.com/ctrlsari' target='_blank'>Kaggle</a> &nbsp;|&nbsp;
-<a href='https://github.com/sarahlamond' target='_blank'>GitHub</a>
+<a href='https://www.linkedin.com/in/zain-hassan-gondal' target='_blank'>LinkedIn</a> &nbsp;|&nbsp;
+<a href='https://github.com/zainhassanee/Multiple-Disease-Prediction-Ai-' target='_blank'>GitHub</a>
 
 </div>
 """, unsafe_allow_html=True)

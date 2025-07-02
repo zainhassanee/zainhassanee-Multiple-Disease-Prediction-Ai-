@@ -3,7 +3,8 @@
 An interactive machine learning app that predicts potential diseases based on selected symptoms using a trained Random Forest classifier. Built with Streamlit for real-time predictions and beautiful UI enhancements.
 
 **Live App**: [Click here to try it!](https://smart-symptom-classifier-demo.streamlit.app/)  
-**Dataset**: [Kaggle - Disease Symptom Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset)
+**Dataset**: [Kaggle - Disease Symptom Dataset](https://www.kaggle.com/
+datasets/itachi9604/disease-symptom-description-dataset)
 
 ---
 
@@ -19,7 +20,7 @@ An interactive machine learning app that predicts potential diseases based on se
 - Medical descriptions + recommended precautions
 - Clean UI with dropdowns
 - Dashboard with word cloud + disease frequency charts
-- “About & Notes” tab with model info + reflection
+- "About & Notes" tab with model info + reflection
 
 ---
 
@@ -62,8 +63,8 @@ This project helped me explore:
 
 ## 🙋‍♀️ About Me
 
-Built with ❤️ by Sarah Lamond
-[LinkedIn](https://www.linkedin.com/in/sarahlamond/) | [GitHub](https://github.com/sarahlamond) | [Kaggle](https://www.kaggle.com/ctrlsari)
+Built with ❤️ by Zain Hassan Gondal
+[LinkedIn](https://www.linkedin.com/in/zain-hassan-gondal) | [GitHub](https://github.com/zainhassanee/Multiple-Disease-Prediction-Ai-)
 
 ---
 <p align="center">
