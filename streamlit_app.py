@@ -57,7 +57,7 @@ with tab1:
     
 
     # --- NEW: Risk Prediction Section --- #
-      st.markdown("### 🔬 Risk Assessment for Key Diseases")
+    st.markdown("### 🔬 Risk Assessment for Key Diseases")
 
   # Convert selected symptoms to risk model input
     risk_input = [1 if symptom in selected_symptoms else 0 for symptom in risk_symptoms]
