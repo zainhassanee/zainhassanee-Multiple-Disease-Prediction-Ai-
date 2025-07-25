@@ -67,8 +67,8 @@ with tab1:
     risk_probs = risk_model.predict_proba(risk_df_input)[0]
     risk_labels = risk_model.classes_
 
-for label, prob in zip(risk_labels, risk_probs):
-    st.info(f"🩸 **{label} Risk:** `{prob * 100:.2f}%`")
+    for label, prob in zip(risk_labels, risk_probs):
+         st.info(f"🩸 **{label} Risk:** `{prob * 100:.2f}%`")
 
     if selected_symptoms:
         input_vector = [1 if symptom in selected_symptoms else 0 for symptom in symptom_list]
