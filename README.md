@@ -2,7 +2,7 @@
 
 An interactive machine learning app that predicts potential diseases based on selected symptoms using a trained Random Forest classifier. Built with Streamlit for real-time predictions and beautiful UI enhancements.
 
-**Live App**: [Click here to try it!](https://smart-symptom-classifier-demo.streamlit.app/)  
+**Live App**: [Click here to try it!](https://multi-disease-predi.streamlit.app/)  
 **Dataset**: [Kaggle - Disease Symptom Dataset](https://www.kaggle.com/
 datasets/itachi9604/disease-symptom-description-dataset)
 
