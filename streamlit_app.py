@@ -10,10 +10,6 @@ model = joblib.load("rf_structured.pkl")
 symptom_list = joblib.load("all_symptoms.pkl")
 class_names = joblib.load("class_names.pkl")
 # 
-# --- NEW: Load Risk Model & Symptom List --- #
-risk_model = joblib.load("risk_model.pkl")
-risk_symptoms = joblib.load("symptom_list.pkl")
-# ------------------------
 
 desc_df = pd.read_csv("symptom_Description.csv")
 prec_df = pd.read_csv("symptom_precaution.csv")
@@ -56,19 +52,7 @@ with tab1:
     selected_symptoms = [display_name_map[name] for name in selected_display]
     
 
-    # --- NEW: Risk Prediction Section --- #
-    st.markdown("### 🔬 Risk Assessment for Key Diseases")
 
-  # Convert selected symptoms to risk model input
-    risk_input = [1 if symptom in selected_symptoms else 0 for symptom in risk_symptoms]
-    risk_df_input = pd.DataFrame([risk_input], columns=risk_symptoms)
-
-    # Predict probabilities for Diabetes, Hypertension, Cardiovascular
-    risk_probs = risk_model.predict_proba(risk_df_input)[0]
-    risk_labels = risk_model.classes_
-
-    for label, prob in zip(risk_labels, risk_probs):
-         st.info(f"🩸 **{label} Risk:** `{prob * 100:.2f}%`")
 
     if selected_symptoms:
         input_vector = [1 if symptom in selected_symptoms else 0 for symptom in symptom_list]
